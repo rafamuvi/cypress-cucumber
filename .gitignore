@@ -4,4 +4,3 @@ node_modules
 #screenshots and videos
 cypress/screenshots
 cypress/videos
-node_modules
