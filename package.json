@@ -1,0 +1,26 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Cypress.io tests with BDD/Cucumber and Page Object Model pattern at http://the-internet.herokuapp.com/login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "POM",
+    "test"
+  ],
+  "author": "Rafael Muniz Vieira",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.3.0",
+    "cypress-cucumber-preprocessor": "^4.1.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps/**/**/"
+  }
+}
